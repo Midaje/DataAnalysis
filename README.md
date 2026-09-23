@@ -45,6 +45,7 @@ ORDER BY
     salary_year_avg DESC
 LIMIT 10;
 ```
+ **Insights:**
  - The average salary across the 10 roles is $244,253, with a median of $199,500. However, the top two roles at Netflix ($445,000 each) pull the overall mean up substantially; the bottom 8 roles sit in a tight range between $172,500 and $225,000 (mean of $194,067).
 
 - "Staff" Represents the High-Income Ceiling for Non-Engineering Analysts
@@ -94,6 +95,7 @@ INNER JOIN
 ORDER BY 
     salary_year_avg DESC;
 ```
+**Insights:**
 - SQL and Python anchor the top-tier compensation market: SQL appears in 8 of the 9 jobs (88.9%), and Python appears in 6 of the 9 jobs (66.7%). Every job paying over $215,000 requiring technical skills includes SQL
 
 - The two highest-paying roles (Netflix Analytics Engineer at $445,000) specifically require core engineering and systems languages—Go, Scala, and TypeScript—moving beyond traditional tabular reporting tools
@@ -129,6 +131,7 @@ ORDER BY
     demand_count DESC
 LIMIT 5;
 ```
+**Insights:**
 - SQL is the dominant foundational skill
 
 - Balanced demand between general-purpose manipulation and programming: Excel (656 mentions, 20.99%) and Python (647 mentions, 20.70%)
@@ -163,6 +166,7 @@ ORDER BY
     average_salary DESC
 LIMIT 25;
 ```
+**Insights:**
 - Python and SQL show the lowest average salaries in the list despite being industry standards. Because they are ubiquitous requirements across entry-level to senior roles, their overall averages are pulled down relative to niche tools.
 ---
 ### Query 5
@@ -202,6 +206,7 @@ ORDER BY
     avg_salary DESC
 LIMIT 25;
 ```
+**Insights:**
 - SQL and Python Dominate Market Demand (40.24% of 2026 Demand): SQL remains the #1 requested skill across both years
 
 - Niche Modern Stack Tools Yield the Highest Compensations: In 2026, the highest average salaries belong to specialized tools with lower demand counts: Looker ($132,609, 12 mentions), Go ($130,926, 13 mentions), and Snowflake ($116,026, 15 mentions), all commanding higher salaries than market staples like SQL ($103,233) and Excel ($94,331).
